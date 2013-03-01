@@ -1,0 +1,5 @@
+SUBROUTINE ReadAlphabet()
+USE Main_decl
+IMPLICIT NONE
+
+END SUBROUTINE ReadAlphabet

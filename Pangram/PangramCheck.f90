@@ -1,0 +1,5 @@
+SUBROUTINE PangramCheck()
+USE Main_decl
+IMPLICIT NONE
+
+END SUBROUTINE PangramCheck

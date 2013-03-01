@@ -1,0 +1,5 @@
+SUBROUTINE ReadInputFile()
+USE Main_decl
+IMPLICIT NONE
+
+END SUBROUTINE ReadInputFile

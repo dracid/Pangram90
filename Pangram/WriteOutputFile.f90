@@ -1,0 +1,5 @@
+SUBROUTINE WriteOutputFile()
+USE Main_decl
+IMPLICIT NONE
+
+END SUBROUTINE WriteOutputFile

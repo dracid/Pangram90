@@ -25,5 +25,10 @@
 				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
 	<Files>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<File RelativePath=".\Main.f90"/></Filter></Files>
+		<File RelativePath=".\Declarations.f90"/>
+		<File RelativePath=".\Main.f90"/>
+		<File RelativePath=".\PangramCheck.f90"/>
+		<File RelativePath=".\ReadAlphabet.f90"/>
+		<File RelativePath=".\ReadInputFile.f90"/>
+		<File RelativePath=".\WriteOutputFile.f90"/></Filter></Files>
 	<Globals/></VisualStudioProject>
