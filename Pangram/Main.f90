@@ -18,15 +18,16 @@ USE Main_decl
 IMPLICIT NONE
 INTEGER*4        :: argNum
 
-! TODO: Get input and output files from argument of executable
 argNum = NARGS()
-! CALL GetArg(1, abcFILE)
-! CALL GetArg(2, inFILE)
-! CALL GetArg(3, outFILE)
-
-abcFILE = "abc.dat"
-inFILE  = "pangrams.in"
-outFILE = "pangrams.out"
+IF (argNum >1) THEN
+   CALL GetArg(1, abcFILE)
+   CALL GetArg(2, inFILE)
+   CALL GetArg(3, outFILE)
+ELSE
+   abcFILE = "abc.dat"
+   inFILE  = "pangrams.in"
+   outFILE = "pangrams.out"
+END IF
 
 CALL ReadAlphabet()
 CALL ReadInputFile()
@@ -35,7 +36,7 @@ CALL PangramCheck()
 
 CALL WriteOutputFile()
 
-WRITE(*,*) "Press ENTER to exit..."
-READ (*,*)
+!WRITE(*,*) "Press ENTER to exit..."
+!READ (*,*)
 END PROGRAM Pangram_checker
 ! ==========================================

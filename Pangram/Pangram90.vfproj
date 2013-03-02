@@ -24,6 +24,10 @@
 				<Tool Name="VFPostBuildEventTool"/>
 				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
 	<Files>
+		<Filter Name="Others">
+		<File RelativePath=".\abc.dat"/>
+		<File RelativePath=".\pangrams.in"/>
+		<File RelativePath=".\pangrams.out"/></Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
 		<File RelativePath=".\Declarations.f90"/>
 		<File RelativePath=".\Main.f90"/>
